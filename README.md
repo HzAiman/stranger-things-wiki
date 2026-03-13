@@ -2,7 +2,7 @@
 
 A comprehensive Wikipedia-style website dedicated to the Netflix series "Stranger Things". This project allows users to explore, contribute, and manage information about characters, episodes, quotes, and locations from the show with full user authentication and content management capabilities.
 
-## 🌟 Key Features
+## Key Features
 
 ### User Authentication & Account Management
 - **User Registration**: Create an account to contribute to the wiki
@@ -75,7 +75,7 @@ A comprehensive Wikipedia-style website dedicated to the Netflix series "Strange
   - Modern responsive design
 - Complete management capabilities for authenticated users
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **Backend**: PHP 7.4+ with MySQLi
 - **Database**: MySQL 5.7+
@@ -88,7 +88,7 @@ A comprehensive Wikipedia-style website dedicated to the Netflix series "Strange
 - **Authentication**: Password hashing (PHP PASSWORD_DEFAULT)
 - **Environment Management**: dotenv for configuration
 
-## 📋 Installation
+## Installation
 
 ### Prerequisites
 - XAMPP 7.4+ (or similar LAMP/WAMP stack)
@@ -149,7 +149,7 @@ A comprehensive Wikipedia-style website dedicated to the Netflix series "Strange
    http://localhost/StrangerThings-Wikis/
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 StrangerThings-Wikis/
@@ -245,7 +245,7 @@ CREATE TABLE characters (
 ### Episodes, Quotes, Locations
 Similar structure with relevant fields for each entity
 
-## 🎨 Design & Theme
+## Design & Theme
 
 ### Stranger Things Aesthetic
 - **Primary Color**: Red (#e50914) for buttons, accents, and interactive elements
@@ -260,7 +260,7 @@ Similar structure with relevant fields for each entity
 - **Smooth Animations**: Hover effects and transitions for better UX
 - **Bootstrap Components**: Modals, cards, tabs, and alerts for consistent UI
 
-## 🔐 Authentication & Security
+## Authentication & Security
 
 ### User Registration
 - Email validation (RFC format)
@@ -292,7 +292,7 @@ Similar structure with relevant fields for each entity
 - `actions/require_login.php` middleware redirects unauthenticated users
 - Applied to: Manage Account, content creation/editing for users
 
-## 📧 Email Configuration
+## Email Configuration
 
 ### Gmail Setup (Recommended for Development)
 1. Enable 2-Factor Authentication on Google Account
@@ -315,7 +315,7 @@ Similar structure with relevant fields for each entity
 - Check PHP error logs at `C:\xampp\php\logs\php_error_log`
 - Enable debug mode in `config/email.php`: `$mail->SMTPDebug = 2;`
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### For Visitors (Without Account)
 1. Browse characters, episodes, locations, quotes
@@ -342,7 +342,7 @@ Similar structure with relevant fields for each entity
 5. Click link and enter new password
 6. Login with new credentials
 
-## 🎯 Customization
+## Customization
 
 ### Changing Theme Colors
 Edit `assets/css/style.css`:
@@ -375,7 +375,7 @@ define('DB_PORT', 3306);
    - `get_new-item.php`
 5. Update navigation in `includes/header.php`
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Database Issues
 - **Connection Failed**: Verify MySQL running, check credentials in `config/database.php`
@@ -407,11 +407,11 @@ define('DB_PORT', 3306);
 - **PHPMailer 7.0**: Email sending
 - **phpdotenv 5.5**: Environment variable management
 
-## 📄 License
+## License
 
 This project is for educational purposes. "Stranger Things" is a Netflix trademark and intellectual property.
 
-## 👨‍💻 Support & Contribution
+## Support & Contribution
 
 For issues or improvements:
 1. Check troubleshooting section above
