@@ -399,7 +399,7 @@ define('DB_PORT', 3306);
 - Clear browser cache (Ctrl+Shift+Delete)
 - Ensure file permissions allow reading (chmod 644)
 
-## 📚 Dependencies
+## Dependencies
 
 - **Bootstrap 5.3**: UI Framework
 - **Font Awesome 6.4**: Icon library
