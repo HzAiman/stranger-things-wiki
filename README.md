@@ -210,7 +210,7 @@ StrangerThings-Wikis/
 └── README.md                         # This file
 ```
 
-## 🗄 Database Schema
+## Database Schema
 
 ### Users Table
 ```sql
